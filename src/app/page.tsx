@@ -8,7 +8,7 @@ const App = () => {
   const initialResources = [
     { 
       id: 1, 
-      name: 'Futur Ressources De Stephane', 
+      name: 'Stephane & Assoçiés', 
       category: 'Design', 
       desc: 'Banque d\'images haute résolution gratuite.', 
       url: 'https://unsplash.com', 
@@ -17,7 +17,7 @@ const App = () => {
     },
     { 
       id: 2, 
-      name: 'Futur Ressources De Stephane', 
+      name: 'Stephane Immobilier', 
       category: 'Tech', 
       desc: 'Gestion de projet fluide et rapide.', 
       url: 'https://linear.app', 
@@ -26,7 +26,7 @@ const App = () => {
     },
     { 
       id: 3, 
-      name: 'Futur Ressources De Stephane', 
+      name: 'Stephane Propreté', 
       category: 'AI', 
       desc: 'Assistant conversationnel par OpenAI.', 
       url: 'https://chat.openai.com', 
@@ -44,7 +44,7 @@ const App = () => {
     },
     { 
       id: 5, 
-      name: 'Futur Ressources De Stephane', 
+      name: 'Stephane', 
       category: 'Design', 
       desc: 'L\'outil standard pour l\'UI/UX.', 
       url: 'https://figma.com', 

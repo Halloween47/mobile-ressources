@@ -8,7 +8,7 @@ const App = () => {
   const initialResources = [
     { 
       id: 1, 
-      name: 'Ressources', 
+      name: 'Futur Ressources De Stephane', 
       category: 'Design', 
       desc: 'Banque d\'images haute résolution gratuite.', 
       url: 'https://unsplash.com', 
@@ -17,7 +17,7 @@ const App = () => {
     },
     { 
       id: 2, 
-      name: 'Linear', 
+      name: 'Futur Ressources De Stephane', 
       category: 'Tech', 
       desc: 'Gestion de projet fluide et rapide.', 
       url: 'https://linear.app', 
@@ -26,7 +26,7 @@ const App = () => {
     },
     { 
       id: 3, 
-      name: 'ChatGPT', 
+      name: 'Futur Ressources De Stephane', 
       category: 'AI', 
       desc: 'Assistant conversationnel par OpenAI.', 
       url: 'https://chat.openai.com', 
@@ -35,7 +35,7 @@ const App = () => {
     },
     { 
       id: 4, 
-      name: 'Tailwind CSS', 
+      name: 'Futur Ressources De Stephane', 
       category: 'Dev', 
       desc: 'Framework CSS utilitaire-first.', 
       url: 'https://tailwindcss.com', 
@@ -44,7 +44,7 @@ const App = () => {
     },
     { 
       id: 5, 
-      name: 'Figma', 
+      name: 'Futur Ressources De Stephane', 
       category: 'Design', 
       desc: 'L\'outil standard pour l\'UI/UX.', 
       url: 'https://figma.com', 
@@ -53,7 +53,7 @@ const App = () => {
     },
     { 
       id: 6, 
-      name: 'Vercel', 
+      name: 'Futur Ressources De Stephane', 
       category: 'Dev', 
       desc: 'Déploiement frontend instantané.', 
       url: 'https://vercel.com', 
@@ -62,7 +62,7 @@ const App = () => {
     },
     { 
       id: 7, 
-      name: 'Midjourney', 
+      name: 'Futur Ressources De Stephane', 
       category: 'AI', 
       desc: 'Génération d\'images par IA.', 
       url: 'https://midjourney.com', 
@@ -71,7 +71,7 @@ const App = () => {
     },
     { 
       id: 8, 
-      name: 'Notion', 
+      name: 'Futur Ressources De Stephane', 
       category: 'Productivity', 
       desc: 'L\'espace de travail tout-en-un.', 
       url: 'https://notion.so', 
@@ -80,7 +80,7 @@ const App = () => {
     },
     { 
       id: 9, 
-      name: 'Dribbble', 
+      name: 'Stephane Transport', 
       category: 'Design', 
       desc: 'Inspiration pour designers.', 
       url: 'https://dribbble.com', 
@@ -89,7 +89,7 @@ const App = () => {
     },
     { 
       id: 10, 
-      name: 'Raycast', 
+      name: 'Stephane Corp', 
       category: 'Productivity', 
       desc: 'Lanceur d\'applications extensible pour Mac.', 
       url: 'https://raycast.com', 

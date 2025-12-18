@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Search, ExternalLink, Dices, Layers, Tag, Plus, Command, Sparkles, Zap, LayoutList, LayoutGrid } from 'lucide-react';
 
 const App = () => {
@@ -122,14 +122,13 @@ const App = () => {
     setRandomResource(newRandom);
   };
 
-  const filteredResources = useMemo(() => {
-    return initialResources.filter(r => {
-      const matchesCategory = activeCategory === 'Tous' || r.category === activeCategory;
-      const matchesSearch = r.name.toLowerCase().includes(searchQuery.toLowerCase()) || 
-                            r.desc.toLowerCase().includes(searchQuery.toLowerCase());
-      return matchesCategory && matchesSearch;
-    });
-  }, [activeCategory, searchQuery]);
+  // Optimisation automatique par React Compiler : useMemo est retiré car il entrait en conflit avec le compilateur
+  const filteredResources = initialResources.filter(r => {
+    const matchesCategory = activeCategory === 'Tous' || r.category === activeCategory;
+    const matchesSearch = r.name.toLowerCase().includes(searchQuery.toLowerCase()) || 
+                          r.desc.toLowerCase().includes(searchQuery.toLowerCase());
+    return matchesCategory && matchesSearch;
+  });
 
   return (
     <div className="min-h-screen bg-neutral-950 text-slate-200 font-sans selection:bg-cyan-500/30 pb-24">

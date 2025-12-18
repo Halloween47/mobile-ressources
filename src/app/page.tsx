@@ -8,7 +8,7 @@ const App = () => {
   const initialResources = [
     { 
       id: 1, 
-      name: 'Unsplash', 
+      name: 'Ressources', 
       category: 'Design', 
       desc: 'Banque d\'images haute résolution gratuite.', 
       url: 'https://unsplash.com', 

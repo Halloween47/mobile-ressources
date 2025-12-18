@@ -141,7 +141,7 @@ const App = () => {
               <Command size={16} className="text-black" />
             </div>
             <h1 className="text-lg font-bold tracking-tight text-white">
-              VAULT<span className="text-cyan-500">.</span>
+              TOM Hub<span className="text-cyan-500">.</span>
             </h1>
           </div>
           <button className="p-2 bg-white/5 hover:bg-white/10 rounded-full border border-white/10 transition-colors active:scale-95">
